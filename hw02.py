@@ -1,3 +1,5 @@
+
+"""tfernsler hw02"""
 # Task 1.1:
 
 def read_two_ints():
@@ -16,8 +18,8 @@ def compute_multadd(a, b):
     # the pass shown below is a placeholder to make sure this runs
     mult_result = a*b
     add_result = a+b
-    print("mult result: ", mult_result)
-    print("add result: ", add_result)
+    print("mult result:", mult_result)
+    print("add result:", add_result)
     print()
     return mult_result/add_result
     
@@ -28,11 +30,11 @@ def print_fancy(a, b, ab_multadd):
     """this function recturns the results of the previous functions"""
     # the pass shown below is a placeholder to make sure this runs
     
-    print("**"*8)
+    print("*" * 16)
     print("RESULTS:")
-    print("first number: ", a)
-    print("second number: ",b)
-    print("multadd result: ", ab_multadd)
+    print("first number:", a)
+    print("second number:",b)
+    print("multadd result:", ab_multadd)
     print("=" * 16)
     print()
 
